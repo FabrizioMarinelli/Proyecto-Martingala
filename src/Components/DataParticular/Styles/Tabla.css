@@ -1,0 +1,37 @@
+.container {
+  margin-top: 2%;
+  height: 50vh; /* set the height of the container */
+  overflow-y: scroll; /* enable vertical scrolling */
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table thead {
+  position: sticky; /* make the header sticky */
+  top: -10px; /* position the header at the top */
+  background-color: white; /* set the background color of the header */
+  z-index: 1; /* set the z-index of the header */
+}
+
+.table th {
+  font-weight: bold; /* make the text in the header bold */
+  text-align: center; /* center the text in the header */
+}
+
+.card {
+  min-width: 50vw;
+}
+
+.datos-Card {
+  min-width: 52vw;
+  min-height: 34vw;
+}

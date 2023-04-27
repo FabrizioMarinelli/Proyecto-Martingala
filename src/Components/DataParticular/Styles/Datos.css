@@ -1,0 +1,8 @@
+@media (max-width: 767px) {
+  .row.justify-content-center.justify-content-lg-start {
+    justify-content: center !important;
+  }
+  .col-auto.mr-lg-2 {
+    margin-right: 0 !important;
+  }
+}
