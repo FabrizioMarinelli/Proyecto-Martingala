@@ -23,7 +23,7 @@ export default function Calcular(dineroE, apuestaE) {
     });
   };
 
-  //funcion que simula el proceso de apuesta de un solo jugador hasta que pierde
+  //funcion que simula el proceso de apuesta de un solo jugador hasta que pierde.
   // de esta funcion se comprueba su mayor ganancia y la cantidad de jugadas que le tomo llegar a ese numero)
   const apostar = function (dineroMovida, apuestaActual) {
     let mayorGanancia = dineroMovida;
